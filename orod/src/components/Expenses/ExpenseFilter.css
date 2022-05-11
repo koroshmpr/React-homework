@@ -1,0 +1,31 @@
+.expense-filter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.expense-filter__controll label {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    margin: 0 1rem;
+    transition: 0.5s;
+    border-radius: 12px;
+    border-bottom: 2px solid transparent;
+}
+.expense-filter__controll label:hover {
+border-bottom: 2px solid white;
+}
+.expense-filter__controll select {
+    padding: 0.5rem;
+    color: black;
+    font-weight: bold;
+    border-radius: 12px;
+    
+}
+.expense-filter__controll{
+border: 1px solid transparent;
+border-left-color: white;
+border-right-color: white;
+padding: 0 1rem;
+}

@@ -1,0 +1,49 @@
+.form-addExpense {
+    color: white;
+    font-size: 1.3rem;
+    background-color: teal;
+    margin: 10px ;
+    display:flex;
+    justify-content: space-around;
+    width: 22rem;
+    border-radius: 12px;
+    box-shadow: inset 0px 2px 5px white,
+    inset 0px -2px 5px black,
+    0px 2px 8px rgba(4, 4, 4 , 0.25);
+    transition: 0.5s;
+    padding: 15px 0;
+}
+.input-line {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-weight: bold;
+}
+.btn-parent {
+    display: flex;
+    justify-content: center;
+}
+.btn-sub {
+    width: 100%;
+    margin: 5px auto;
+    background-color: #4bb543;
+    padding: 10px;
+    color: white;
+    font-size: 1.2rem;
+    border: 0;
+    transition: 0.2s;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: inset 0px 2px 5px white,
+    inset 0px -2px 5px black,
+    0px 2px 8px rgba(4, 4, 4 , 0.25);
+    cursor: pointer;
+}
+.btn-sub:hover {
+    background-color: #3b9435;
+}
+.input-box {
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

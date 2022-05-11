@@ -1,0 +1,20 @@
+.expense-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid #ececec;
+    border-radius: 12px;
+    box-shadow: inset 0px 2px 5px white,
+    inset 0px -2px 5px black,
+    0px 2px 8px rgba(4, 4, 4 , 0.25);
+}
+.expense-date div {
+    font-size: 1rem;
+}
+.expense-date__year {
+    font-weight: bold;
+}

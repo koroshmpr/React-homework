@@ -1,0 +1,32 @@
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #333;
+}
+.expense-item__description {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.expense-item__title {
+    color: #fff;
+    font-size: 1.75rem;
+    margin: auto;
+}
+.expense-item__amount {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(250, 70, 70);
+    border: 1px solid #fff;
+    border-radius: 12px;
+    padding: 0.5rem;
+    box-shadow: inset 0px 2px 5px white,
+    inset 0px -2px 5px black,
+    0px 2px 8px rgba(4, 4, 4 , 0.25);
+}

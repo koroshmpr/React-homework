@@ -1,0 +1,32 @@
+.formItem {
+    padding: 2rem;
+    background-color: rgb(202, 202, 202);
+    max-width: 250px;
+    margin: 1rem auto;
+    display: grid;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgb(97, 96, 96);
+}
+.btSubmit {
+    cursor: pointer;
+    border: 0;
+    padding: 0.5rem;
+    border-radius: 12px;
+    margin: 1rem 0;
+    background-color: rgb(42, 199, 68);
+    font-weight: bold;
+    transition: 0.2s;
+}
+.btSubmit:hover {
+    color: white;
+    background-color: rgb(23, 112, 38);
+}
+.inp {
+    margin: 0.5rem 0;
+    border: 0;
+    padding: 0.5rem;
+    border-radius: 12px;
+
+}

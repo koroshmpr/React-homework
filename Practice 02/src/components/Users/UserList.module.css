@@ -1,0 +1,8 @@
+.listShow {
+    border-radius: 12px;
+    padding: 3rem;
+    background-color: rgb(207, 205, 205);
+    margin: 3rem auto;
+    max-width: 840px;
+    font-size: 1.5rem;
+}

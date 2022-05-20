@@ -1,0 +1,48 @@
+.overly {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.65);
+    z-index: 10;
+}
+.modal {
+    position: fixed;
+    width: 40%;
+    left: 30%;
+    top: 30vh;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    z-index: 11;
+}
+.header {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 0.5rem;
+    background-color: teal;
+}
+.header h2 {
+    margin: 0;
+    font-weight: bold;
+    color: white;
+}
+.content {
+    padding: 1rem;
+}
+.actions {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.actions button {
+    background-color: rgb(4, 160, 160);
+    padding: 0.5rem 1rem;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+}
+.actions button:hover {
+    background-color: teal;
+}

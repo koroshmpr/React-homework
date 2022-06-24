@@ -1,0 +1,42 @@
+.list {
+    width: 60%;
+    list-style: none;
+    padding: 10px;
+    box-shadow:  2px 1px 6px black;
+    border-radius: 12px;
+    margin: 15px;
+    background-color: white;
+}
+.list h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+.list h4 {
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: normal;
+    padding: 0 20px;
+}
+.list p {
+    padding: 0 10px;
+    text-align: end;
+    font-size: 14px;
+    font-weight: bold;
+}
+.mainList {
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: teal;
+}
+@media screen and (max-width:1024px) {
+    .list {
+        width: 95%;
+        padding: 2px;
+        margin: 5px 0;
+    }
+    .mainList {
+        padding: 70px 0;
+    }
+}

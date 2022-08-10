@@ -1,0 +1,47 @@
+.header {
+    background-color: rgb(71, 71, 71);
+    position: sticky;
+    top: 0;
+    padding: 5px ;
+    z-index: 1000;
+}
+.menu {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li a{
+    color: rgb(151, 151, 151);
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+.menu li a:hover {
+    color: #d2c2b0;
+}
+.logo {
+    margin-right: 50px;
+    transition: 0.3s;
+    border-bottom-color: transparent;
+    animation: intro 0.5s both;
+}
+.logo:hover {
+    transform: scale(1.05);
+}
+@keyframes intro {
+    0% {
+        transform: rotate(50deg)scale(0.02);
+    }
+    50% {
+        transform: rotate(350deg)scale(0.6);
+    }
+    100% {
+        transform: rotate(1turn)scale(1);
+    }
+    
+}

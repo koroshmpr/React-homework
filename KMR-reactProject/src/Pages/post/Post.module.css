@@ -1,0 +1,49 @@
+.main{
+    height: 150px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+section ,aside ,main{
+    margin: 0!important;
+    --bs-gutter-x:0!important
+}
+.cardBody , .main {
+    box-shadow: 0 2px 12px rgb(99, 99, 99);
+    background-color: #d2c2b0;
+}
+.title__change{
+    transition: 0.5s;
+    padding: 0;
+}
+.title__box {
+    border: 3px solid rgb(71, 71, 71);
+}
+.title__input , .title__button ,.title__box {
+    border-radius: 10px!important;
+}
+.title__box  {
+    box-shadow:  0px 1px 5px rgb(97, 97, 97);
+}
+.heading {
+    box-shadow: inset 0 4px 8px #d2c2b0,
+                0 10px 15px rgb(97, 97, 97);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.title__input{
+    padding: 5px;
+}
+.title__button , .heading {
+    background-color: rgb(71, 71, 71)!important;
+    color: #d2c2b0!important;
+}
+.title__button:hover {
+    background-color: rgb(58, 58, 58)!important;
+    color: #d2c2b0!important;
+}
+.btn__move{
+    width: 80px!important;
+    height: 40px!important;
+}

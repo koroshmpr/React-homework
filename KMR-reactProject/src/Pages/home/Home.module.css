@@ -1,0 +1,73 @@
+.main{
+    height: 150px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    background-color: #d2c2b0;
+    box-shadow: 0 2px 12px rgb(99, 99, 99);
+}
+h2 , h6 {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    color: rgb(71, 71, 71);
+}
+h2 {
+    font-size: 3rem;
+}
+h6 {
+    font-size: 1.2rem;
+}
+.itemShow{
+    background-color: #d2c2b0!important;
+}
+.border {
+    border-color: #d2c2b0;
+}
+.itemShow h5 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.sticky__pagg {
+    position: fixed;
+    top: 45vh;
+    width: 90px;
+    left: 1vw;
+}
+.btn__group li{
+    list-style-type: none;
+    width: 40px!important;
+    
+}
+.btn__group:first-child , .btn__group:last-child {
+    border-radius: 30px!important;
+}
+.btn__group li a {
+    border-radius: 59px!important;
+    text-align: center;
+    color: rgb(201, 201, 201)!important;
+    border-color: rgb(43, 43, 43)!important;
+    margin: 3px 0;
+    border-radius: 30px;
+    box-shadow: inset 1px 2px 3px rgb(126, 125, 125),
+                        1px 5px 7px black;
+    transition: 0.2s;
+}
+.btn__group li:first-child a {
+    border-top-left-radius: 100px!important;
+    border-bottom-left-radius: 0px!important;
+}
+.btn__group li:last-child a {
+    border-top-right-radius: 0px!important;
+    border-bottom-right-radius: 100px!important;
+}
+.btn__group li :hover ,.btn__group li a:active ,.btn__group li a:target , .btn__group li a:focus , a[rel="canonical"] {
+    color: #d2c2b0!important;
+    font-weight: bolder;
+    transform: scale(0.95);
+    box-shadow: inset 0px 1px 3px rgb(126, 125, 125),
+                        0px 2px 7px black;
+}

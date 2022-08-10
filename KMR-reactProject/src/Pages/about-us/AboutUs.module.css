@@ -1,0 +1,27 @@
+.heading {
+    height: 170px;
+    transform: rotate(-3deg); 
+    background-color: #d2c2b0;
+    margin-top: -40px!important;
+    margin-bottom: 100px;
+    overflow-x: hidden;
+    width: 99.8%;
+    margin-left: 0px!important;
+}
+.title {
+    transform: rotate(3deg);
+    color: rgb(71, 71, 71);
+    font-size: 2.8rem;
+}
+.informationBOx{
+    background-color: #d2c2b0;
+}
+.mainaboutus {
+    border: 0!important;
+}
+.heading , .mainaboutus {
+    box-shadow: 0 3px 10px rgb(58, 58, 58);
+}
+.informationBOx p {
+    text-align: justify;
+}
